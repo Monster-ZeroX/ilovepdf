@@ -37,13 +37,10 @@ Some of the main features are:
 ◍ `Convert PDF to images`
 ◍ `Convert files to pdf`
 
-OwNeD By: @nabilanavab 😜
-Update Channel: @nabiIanavab 🤩
+Update Channel: @FZBOTS 🤩
 
-Join @nabiIanavab, for bot updates ♥️
+Join @FZBOTS, for bot updates ♥️
 
-[Source Code 🏆](https://github.com/nabilanavab/ilovepdf)
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)
 '''
 		key = types.InlineKeyboardMarkup()
 		key.add(types.InlineKeyboardButton("Source Code ❤️", callback_data="strtDevEdt"),types.InlineKeyboardButton("Explore More 🥳", callback_data="imgsToPdfEdit"))
@@ -59,15 +56,13 @@ Join @nabiIanavab, for bot updates ♥️
 				try:
 					aboutDev = f'''About Dev:
 
-OwNeD By: @nabilanavab 😜
-Update Channel: @nabiIanavab 😇
+Update Channel: @FZBOTS 😇
 
 Lang Used: Python🐍
 [Source Code](https://github.com/nabilanavab/ilovepdf)
 
-Join @nabiIanavab , if you ❤ this 
+Join @FZBOTS , if you ❤ this 
 
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)
 '''
 					key = types.InlineKeyboardMarkup()
 					key.add(types.InlineKeyboardButton("🔙 Home 🏡", callback_data="back"))
@@ -94,9 +89,7 @@ Images to pdf :
  
 	- By default, your telegram ID will be treated as your pdf name..🙂
 	- `/generate fileName` - to change pdf name to fileName🤞
-	- `/generate name` - to get pdf with your telegram name
-
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)'''
+	- `/generate name` - to get pdf with your telegram name'''
 					key = types.InlineKeyboardMarkup()
 					key.add(types.InlineKeyboardButton("🔙 Home 🏡", callback_data="back"),types.InlineKeyboardButton("PDF to images ➡️", callback_data="pdfToImgsEdit"))
 					bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id, text = expMsg, disable_web_page_preview=True, reply_markup=key)
@@ -121,9 +114,7 @@ PDF to images:
 
 ⚠️ Due to overload this bot will only convert files less than 10mb files..⚠️
 
-if you need to convert 10mb+ you can create your own bot.. Source code is mentioned in bio 😇
-
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)'''
+if you need to convert 10mb+ you can create your own bot.. Source code is mentioned in bio 😇'''
 					key = types.InlineKeyboardMarkup()
 					key.add(types.InlineKeyboardButton("🔙 Imgs To Pdf", callback_data="imgsToPdfEdit"),types.InlineKeyboardButton("Home 🏡", callback_data="back"),types.InlineKeyboardButton("file to Pdf ➡️", callback_data="filsToPdfEdit"))
 					bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id, text = expMsg, disable_web_page_preview=True, reply_markup=key)
@@ -147,9 +138,7 @@ API LIMITS..😕
 
 ⚠️ Due to overload this bot will only convert files less than 10mb files..⚠️
 
-if you need to convert 10mb+ you can create your own bot.. Source code is mentioned in bio 😇
-
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)'''
+if you need to convert 10mb+ you can create your own bot.. Source code is mentioned in bio 😇'''
 					key = types.InlineKeyboardMarkup()
 					key.add(types.InlineKeyboardButton("🔙 PDF to imgs", callback_data="imgsToPdfEdit"),types.InlineKeyboardButton("Home 🏡", callback_data="back"),types.InlineKeyboardButton("WARNING ⚠️", callback_data="warningEdit"))
 					bot.edit_message_text(chat_id=call.message.chat.id, message_id=call.message.message_id, text = expMsg, disable_web_page_preview=True, reply_markup=key)
@@ -167,9 +156,7 @@ WARNING MESSAGE ⚠️:
 
 ◍ Please don't try to spread 18+ contents 😒
 
-IF THERE IS ANY KIND OF REPORTING, BUGS, REQUESTS, AND SUGGESTIONS PLEASE CONTACT @nabilanavab
-
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)
+IF THERE IS ANY KIND OF REPORTING, BUGS, REQUESTS, AND SUGGESTIONS PLEASE CONTACT @FZBOTSSUPPORT
 '''
 					key = types.InlineKeyboardMarkup()
 					key.add(types.InlineKeyboardButton("🔙 WARNING ⚠️", callback_data="warningEdit"),types.InlineKeyboardButton("Home 🏡", callback_data="back"))
@@ -189,12 +176,11 @@ Some of the main features are:
 ◍ `Convert PDF to images`
 ◍ `Convert files to pdf`
 
-OwNeD By: @nabilanavab 😜
-Update Channel: @nabiIanavab 🤩
+Update Channel: @FZBOTS 🤩
 
-Join @nabiIanavab, if you ♥️ this bot
+Join @FZBOTS, if you ♥️ this bot
 
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)
+[Support 📋](https://t.me/FZBOTSSUPPORT)
 '''
 					key = types.InlineKeyboardMarkup()
 					key.add(types.InlineKeyboardButton("Source Code ❤️", callback_data="strtDevEdt"),types.InlineKeyboardButton("Explore More 🥳", callback_data="imgsToPdfEdit"))
@@ -224,7 +210,7 @@ Help message:
 
  ◍ Then Use `Explore more 🥳` button for more help 🙏🥴
  
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)
+[Support 📋](https://t.me/FZBOTSSUPPORT)
 '''
 		key = types.InlineKeyboardMarkup()
 		key.add(types.InlineKeyboardButton("Close ⌛", callback_data="close"))
@@ -246,7 +232,7 @@ Help message:
 def feedback(message):
 	bot.send_chat_action(message.chat.id, "typing")
 	feedbackMsg = f'''
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)
+[Support 📋](https://t.me/FZBOTSSUPPORT)
 '''
 	bot.send_message(message.chat.id, feedbackMsg, disable_web_page_preview=True)
 
@@ -416,7 +402,7 @@ Or Create pdf bot your Own.. link in bio''')
 				sleep(10)
 				bot.send_chat_action(message.chat.id, "typing")
 				feedbackMsg = f'''
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)
+[Support 📋](https://t.me/FZBOTSSUPPORT)
 '''
 				bot.send_message(message.chat.id, feedbackMsg, disable_web_page_preview=True)
 				
@@ -469,7 +455,7 @@ Or Create pdf bot your Own.. link in bio''')
 				sleep(10)
 				bot.send_chat_action(message.chat.id, "typing")
 				feedbackMsg = f'''
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)
+[Support 📋](https://t.me/FZBOTSSUPPORT)
 '''
 				bot.send_message(message.chat.id, feedbackMsg, disable_web_page_preview=True)
 		
@@ -521,7 +507,7 @@ Or Create pdf bot your Own.. link in bio''')
 					sleep(10)
 					bot.send_chat_action(message.chat.id, "typing")
 					feedbackMsg = f'''
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)
+[Support 📋](https://t.me/FZBOTSSUPPORT)
 '''
 					bot.send_message(message.chat.id, feedbackMsg, disable_web_page_preview=True)
 				
@@ -610,7 +596,7 @@ def generate(message):
 		sleep(10)
 		bot.send_chat_action(message.chat.id, "typing")
 		feedbackMsg = f'''
-[Write a feedback 📋](https://t.me/nabilanavabchannel/17?comment=10)
+[Support 📋](https://t.me/FZBOTSSUPPORT)
 '''
 		bot.send_message(message.chat.id, feedbackMsg, disable_web_page_preview=True)
 	
